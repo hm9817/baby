@@ -1,0 +1,133 @@
+.content{
+	width: 100%;
+	height: 1873px;
+}
+.content_a{
+	width: 100%;
+	height: 350px;
+	background-image: url(../img/newsw_02.png);
+	background-size: 100% 100%;
+}
+.content>ul{
+	width: 1000px;
+	height: 1160px;
+	border: 1px dashed #F1F1F1;
+	margin: 0 auto;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	border-radius:2% 2%;
+}
+.content>ul>li:nth-child(1){
+	width: 290px;
+}
+.content>ul>li:nth-child(2){
+	width: 700px;
+}
+.content_left ul{
+	width: 280px;
+	height: 646px;
+	list-style: none;
+	border: 1px dashed #F1F1F1;
+	border-radius: 2% 2%;
+}
+.content_left ul li{
+	width: 280px;
+	height: 64px;
+}
+.content_left ul li input{
+	width:210px;
+	height: 25px;
+	background-color:white ;
+	margin-top: 12px;
+	margin-left: 24px;
+	color: #797979;
+	font-size: 12px;
+}
+.content_left .xiaoyu{
+	position: absolute;
+	left: 325px;
+	margin-top: 4px;
+}
+.content_left .serch{
+	position: absolute;
+	left: 488px;
+	margin-top: 5px;
+}
+.content_right{
+	width: 100%;
+	height: 1160px;
+}
+.right_b{
+	width: 100%;
+	height: 1160px;
+	margin:  0 auto;
+	border: 1px solid #EDEDED;
+	border-radius: 1px 1px 15px 15px;
+	margin-top: 2px;
+}
+.right_b .b_a{
+	width: 100%;
+	height: 85px;
+}
+.right_b .b_a ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.right_b .b_a ul li:nth-child(2){
+	font-size: 12px;
+	color: #7c7b7b;
+	line-height: 68px;
+}
+.right_b .b_c ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	height: 170px;
+	width: 100%;
+}
+.right_b .b_c ul li{
+	width: 437px;
+	height: 170px;
+}
+.right_b .b_c ul li .img1{
+	margin-top: -16px;
+	margin-left: 352px;
+}
+.right_b .b_d ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	/*height: 170px*/
+	width: 100%;
+	margin-top: 18px;
+}
+.right_b .b_d ul li p{
+	text-align: center;
+	line-height: 28px;
+}
+.right_b .b_d ul li .p1{
+	font-size: 14px;
+	color: #7b8f8e;
+	margin-top: 11px;
+}
+.right_b .b_d ul li .p2{
+	font-size: 12px;
+	color: #8e8e8e;
+}
+.right_b .b_d ul li>.p1:hover{
+	color: #008cd7;
+}
+.right_b .b_f{
+	width: 200px;
+	margin:  0 auto;
+	margin-top: 70px;
+}
+.right_b .b_f ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	/*height: 170px*/
+	
+}

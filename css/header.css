@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 100%;
+}
+.header{
+	width: 1000px;
+	height: 96px;
+	margin:  0 auto;
+	/*border: 1px solid red;*/
+}
+/*.header .weixin:hover{
+	position: absolute;
+	background-image: url(../img/fo.png);
+	background-size: 50px 50px;
+	margin: 50px 50px;
+	background: no-repeat;
+	
+}*/
+.header ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.header ul li .header_a>p{
+	font-size: 12px;
+	color: #666666;
+	margin-top: -16px;
+	margin-left: 18px;
+	
+}
+.header ul li .header_a>p:hover{
+	color: coral;
+}
+.header ul li .header_a img{
+	width: 27px;
+	height: 27px;
+	position: relative;
+	top: -22px;
+	margin-left: 6px;
+}
+.header ul li .header_b img{
+	width: 49px;
+	height: 45px;
+	margin-top: -18px;
+	margin-left: -52px;
+	/*align:absmiddle*/
+}
+.header ul li .header_b p{
+	font-size: 20px;
+	color: #038dd8;
+	margin-top: -47px;
+}
+
+.content_a ul{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+/*.content_a ul li{
+	font-size: 14px;
+	color: #008cd7;
+	
+	font-weight: bold;
+}*/
+.content_a ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	/*color: #038dd8;*/
+	line-height: 55px;
+	font-family: '造字工房悦黑体验版','Microsoft YaHei';
+	color: #008cd7;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content_a>ul>li> a:hover{
+	color: #f29000;
+}
