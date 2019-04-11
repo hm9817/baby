@@ -41,6 +41,16 @@
 	top: -22px;
 	margin-left: 6px;
 }
+.header ul li .header_a #div1{
+	display: none;
+	position: absolute;
+}
+.header ul li .header_a>#div1>img{
+	width: 100px;
+	height: 100px;
+	margin-top: 0px;
+	margin-left: 43px;
+}
 .header ul li .header_b img{
 	width: 49px;
 	height: 45px;
